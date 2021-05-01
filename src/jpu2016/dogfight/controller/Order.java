@@ -8,7 +8,7 @@ public enum Order {
 	
 	DOWN,
 	
-	lEFT,
+	LEFT,
 	
 	SHOOT,
 	
