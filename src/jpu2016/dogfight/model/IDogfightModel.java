@@ -6,7 +6,7 @@ public interface IDogfightModel {
 	
 	public IArea getArea();
 	
-	public void (Dimension dimension);
+	public void buildArea(Dimension dimension);
 	
 	public void addMoblie (IMobile Mobile);
 	
