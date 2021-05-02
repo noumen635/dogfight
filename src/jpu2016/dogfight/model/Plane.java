@@ -10,10 +10,10 @@ public class Plane {
 	private int player;
 	
 	public Plane(int player, Direction direction, Positin potion, String image){
-		
+		this.player = player;
 	}
 	public boolean isPlayer (int player) {
-		
+		this.player = player;
 	}
 	public boolean hit() {
 		

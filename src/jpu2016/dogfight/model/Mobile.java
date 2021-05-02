@@ -12,16 +12,16 @@ public class Mobile {
 		this.speed = speed;
 	}
 	public Direction getDirection() {
-		
+		return new Direction();
 	}
 	public void setDirection (Direction direction){
 		
 	}
 	public Point getPosition(){
-		
+		return new Point();
 	}
 	public Dimension getDimension() {
-		
+		return new Dimension();
 	}
 	public int getSpeed(){
 		return 1;
@@ -55,7 +55,7 @@ public class Mobile {
 		
 	}
 	public Color getColor() {
-		
+		return new Color();
 	}
 	public IDogfightModel getDogfightModel() {
 		
@@ -70,6 +70,6 @@ public class Mobile {
 		
 	}
 	public Image getImage() {
-		
+		return new Image();
 	}
 }

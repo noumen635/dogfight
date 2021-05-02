@@ -8,9 +8,9 @@ public class Sky {
 		
 	}
 	public Dimension getDimension() {
-		
+		return new Dimension();
 	}
 	public Image Image() {
-		
+		return new Image();
 	}
 }
